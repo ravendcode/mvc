@@ -1,0 +1,33 @@
+# Dependency directories
+vendor/
+node_modules/
+jspm_packages/
+
+# Typescript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# next.js build output
+.next
+
+.idea/
+.vscode/
+
+npm-debug.log
+yarn-error.log
+.env
+.phpunit.result.cache

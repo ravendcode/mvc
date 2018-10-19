@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+
+$config = require __DIR__ . '/config/server.php';
+
+$port = $config['port'];
+$docroot = $config['docroot'];
+$docrootPath =  __DIR__ . DIRECTORY_SEPARATOR . $docroot;
+
+if (count($argv) == 2) {
+  $intPort = intval($argv[1]);
+  $port = $intPort ?: $port;
+}
+
+echo "Server listening on http://localhost:$port", PHP_EOL;
+echo "Document root is $docrootPath", PHP_EOL;
+
+exec("php -S localhost:$port -t $docroot");

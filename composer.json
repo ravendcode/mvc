@@ -1,0 +1,11 @@
+{
+    "name": "MVC",
+    "description": "Simple Skeleton for MVC",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Core\\": "core/"
+        }
+
+    }
+}
