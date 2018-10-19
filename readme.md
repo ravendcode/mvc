@@ -1,4 +1,4 @@
-# Simple Skeleton for MVC
+# Simple Skeleton For MVC
 
 ## Features
 
