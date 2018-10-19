@@ -20,7 +20,7 @@
   <section>
     <h3>Users</h3>
     <ul>
-      <?php foreach($users as $user): ?>
+      <?php foreach ($users as $user) : ?>
         <li><?= $user->name; ?></li>
       <?php endforeach; ?>
     </ul>
