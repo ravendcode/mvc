@@ -10,4 +10,4 @@
 
 1. `composer install`
 2. Edit `config/database.php`
-3. `php run`
+3. `php bin/run`
